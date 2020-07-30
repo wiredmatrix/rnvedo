@@ -286,7 +286,7 @@ stopRecording = () => {
 
             <TouchableOpacity 
             style={styles.VideoGalleryIcon}
-            onPress={() => { this.props.navigation.navigate('PhotoGallery') }}
+            onPress={() => { this.props.navigation.navigate('VocVidGallery') }}
           >
                 <Image 
                   source={require('../images/photoGalleryIcon.png')}

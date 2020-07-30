@@ -3,7 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import CameraComponent from './src/cameraComponent';
-import VocPhotoGallery from './src/VocPhotoGallery';
+import VocVidGallery from './src/VocVidGallery';
 
 const Stack = createStackNavigator();
 export default class App extends React.Component {
@@ -17,8 +17,8 @@ export default class App extends React.Component {
                     />
 
                     <Stack.Screen
-                        name='PhotoGallery'
-                        component={VocPhotoGallery} 
+                        name='VideoGallery'
+                        component={VocVidGallery} 
                     />
                 </Stack.Navigator>
             </NavigationContainer>
